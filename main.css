@@ -8,7 +8,7 @@ body
 background-image: url(imagens/brb.avif);
 background-repeat: no-repeat;
 background-size: 100%;
-background-color: darkgrey;
+background-color: rgb(190, 174, 100);
 }
 header
 {
@@ -17,7 +17,7 @@ text-align: center;
 }
 footer
 {
-background: orange;
+background: rgb(255, 255, 255);
 text-align: center;
 
 
