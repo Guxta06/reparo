@@ -22,12 +22,11 @@ position: relative;top: 50px;
 background-color: bisque;
 font-size: 50px;
 }
-.typing-effect {
-    font-size: 30px;
+#typing-effect {
     white-space: nowrap;
     overflow: hidden;
     border-right: 2px solid black;
-    animation: typing 1s steps(15) infinite, blink 1s infinite;
+    animation: typing 3s steps(30) infinite, blink 1s infinite;
 }
 
 @keyframes typing {
@@ -36,7 +35,7 @@ font-size: 50px;
     }
 
     to {
-        width: 52%;
+        width: 105%;
     }
 }
 
